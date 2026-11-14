@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Товуш сигналлари (v32, v33): мавзулар, табиат товушлари, ҳар бир ҳодисага алоҳида товуш, бошқа экран ўқувчи билан -->
+
+    <!-- Асосий Созламалар экранидаги кириш пункти -->
+    <string name="pref_open_sounds">Товуш сигналлари созламалари (мавзу, табиат товушлари, баландлик)</string>
+    <string name="pref_open_sounds_summary">Томчи, сув, ёмғир, қуш, қадам ва iPhone услубидаги товушлар; ҳар бир ҳодисага алоҳида товуш; бошқа экран ўқувчи билан ҳам</string>
+
+    <!-- Товуш сигналлари экрани -->
+    <string name="snd_title">Товуш сигналлари</string>
+    <string name="snd_cat_main">Товуш сигналлари</string>
+    <string name="snd_earcons_summary">Фокус, босиш, чегара, ойна, суриш ва хато ҳодисаларида нутқсиз қисқа товуш чалинади. Стандартда ўчиқ.</string>
+    <string name="snd_theme">Товушлар мавзуси</string>
+    <string name="snd_volume">Сигналлар баландлиги (фоиз)</string>
+    <string name="snd_volume_summary">Телефоннинг «махсус имкониятлар» овоз баландлиги билан бирга ишлайди</string>
+    <string name="snd_volume_exact">Баландликни аниқ сон билан киритиш</string>
+    <string name="snd_volume_exact_summary">Ҳозир: %1$d фоиз</string>
+    <string name="snd_demo">Ҳамма сигналларни кетма-кет эшитиш</string>
+    <string name="snd_demo_summary">Фокус, босиш, чегара, ойна, суриш ва хато товушлари бирин-кетин чалинади</string>
+
+    <!-- Афзал кўрилган механизм: TalkBack ёқиқ пайтда ҳам сигнал -->
+    <string name="snd_cat_standby">Афзал кўрилган механизм: бошқа экран ўқувчи билан</string>
+    <string name="snd_standby">TalkBack ёқиқ бўлганда ҳам сигнал чалиш</string>
+    <string name="snd_standby_summary">Ўзбегим афзал кўрилган нутқ механизми бўлиб, экранни TalkBack ёки бошқа экран ўқувчи ўқиётган пайтда ҳам фокус, босиш, ойна ва суриш сигналлари чалинади. Бунинг учун Ўзбегим махсус имкониятлар хизмати ёқиқ туриши керак.</string>
+    <string name="snd_standby_status_title">Ҳолат</string>
+    <string name="snd_status_master_off">Товуш сигналлари ўчиқ: юқоридаги «Товуш сигналлари» тугмасини ёқинг.</string>
+    <string name="snd_status_off">Бу тугма ўчиқ: TalkBack ёки бошқа экран ўқувчи ёқиқ пайтда сигнал чалинмайди.</string>
+    <string name="snd_status_no_service">Ўзбегим махсус имкониятлар хизмати ёқилмаган. Телефон созламаларининг «Махсус имкониятлар» бўлимида Ўзбегимни ёқинг, шунда TalkBack ёқиқ пайтда ҳам сигнал чалинади.</string>
+    <string name="snd_status_ready">Тайёр: бошқа экран ўқувчи ёқиқ пайтда ҳам фокус, босиш, ойна ва суриш сигналлари чалинади. Чегара ва хато сигналлари фақат Ўзбегимнинг ўзи ўқиётганда чалинади. Сигналлар икки марта эшитилса, TalkBack созламаларида «Sound feedback» бандини ўчиринг.</string>
+
+    <!-- Ҳар бир ҳодиса учун товуш -->
+    <string name="snd_cat_events">Ҳар бир ҳодиса учун товуш</string>
+    <string name="snd_choice_theme_entry">Мавзудаги товуш</string>
+    <string name="snd_choice_off">Ўчиқ</string>
+    <string name="snd_choice_theme">Мавзудаги товуш: %1$s</string>
+    <string name="snd_event_focus">Фокус ўзгарганда (янги элемент)</string>
+    <string name="snd_event_click">Элемент босилганда</string>
+    <string name="snd_event_edge">Рўйхат чегарасига етганда</string>
+    <string name="snd_event_window">Ойна ёки экран алмашганда</string>
+    <string name="snd_event_scroll">Рўйхат сурилганда</string>
+    <string name="snd_event_error">Амал бажарилмаганда (хато)</string>
+
+    <!-- Тинглаб кўриш рўйхатидаги гуруҳлар -->
+    <string name="snd_group_tone">Оддий оҳанглар</string>
+    <string name="snd_group_ios">iPhone услубидаги товушлар</string>
+    <string name="snd_group_water">Сув товушлари</string>
+    <string name="snd_group_rain">Ёмғир товушлари</string>
+    <string name="snd_group_nature">Қушлар, шабада ва ўрмон</string>
+    <string name="snd_group_step">Қадам ва ҳаракат товушлари</string>
+    <string name="snd_group_zen">Сокинлик ва ҳордиқ товушлари</string>
+
+    <!-- Мавзулар -->
+    <string name="snd_theme_classic">Классик (аввалги тик ва тук оҳанглари)</string>
+    <string name="snd_theme_water">Сув ва томчилар</string>
+    <string name="snd_theme_rain">Ёмғир</string>
+    <string name="snd_theme_forest">Ўрмон ва қушлар</string>
+    <string name="snd_theme_zen">Сокинлик (бамбук, коса, қўнғироқ)</string>
+    <string name="snd_theme_mix">Аралаш табиат</string>
+    <string name="snd_theme_ios">iPhone услуби (юмшоқ ёғоч ва шиша)</string>
+    <string name="snd_theme_steps">Қадамлар ва ёғоч</string>
+
+    <!-- Товушлар -->
+    <string name="snd_name_tone_tik">Тик (қисқа юқори оҳанг)</string>
+    <string name="snd_name_tone_tuk">Так-тук (икки қисқа оҳанг)</string>
+    <string name="snd_name_tone_edge">Чегара (пасаювчи оҳанг)</string>
+    <string name="snd_name_tone_window">Ойна (кўтарилувчи оҳанг)</string>
+    <string name="snd_name_tone_scroll">Суриш (уч қисқа оҳанг)</string>
+    <string name="snd_name_tone_error">Хато (паст оҳанг)</string>
+    <string name="snd_name_drop_tiny">Майда томчи</string>
+    <string name="snd_name_drop_water">Сув томчиси</string>
+    <string name="snd_name_drop_deep">Чуқур томчи (акс садоли)</string>
+    <string name="snd_name_drop_pair">Икки томчи</string>
+    <string name="snd_name_water_splash">Сув сатҳига урилиш (чайқалиш)</string>
+    <string name="snd_name_water_ripple">Сув тўлқинчаси</string>
+    <string name="snd_name_water_brook">Сой шилдираши</string>
+    <string name="snd_name_water_wave">Денгиз тўлқини</string>
+    <string name="snd_name_rain_tap">Ёмғир томчиси</string>
+    <string name="snd_name_rain_leaves">Ёмғир баргларда</string>
+    <string name="snd_name_rain_shower">Ёғаётган ёмғир</string>
+    <string name="snd_name_bird_tweet">Қуш чийиллаши</string>
+    <string name="snd_name_bird_trill">Қуш сайраши</string>
+    <string name="snd_name_bird_dove">Каптар ғу-ғуси</string>
+    <string name="snd_name_cricket">Чирилдоқ</string>
+    <string name="snd_name_leaf_rustle">Барглар шитирлаши</string>
+    <string name="snd_name_wind_breeze">Енгил шабада</string>
+    <string name="snd_name_bamboo_tap">Бамбук тақиллаши</string>
+    <string name="snd_name_wood_block">Ёғоч тақиллаши</string>
+    <string name="snd_name_pebble">Майда тош</string>
+    <string name="snd_name_chime_wind">Шамол қўнғироғи (акс садоли)</string>
+    <string name="snd_name_bowl_soft">Куйловчи коса</string>
+    <string name="snd_name_ios_tick">iPhone услуби: тик (юмшоқ)</string>
+    <string name="snd_name_ios_tock">iPhone услуби: ток (ёғоч)</string>
+    <string name="snd_name_ios_pop">iPhone услуби: поп (босиш)</string>
+    <string name="snd_name_ios_thud">iPhone услуби: паст зарба (чегара)</string>
+    <string name="snd_name_ios_swoosh">iPhone услуби: шамолча ва шиша оҳанги (ойна)</string>
+    <string name="snd_name_ios_scroll">iPhone услуби: суриш тиқирлаши</string>
+    <string name="snd_name_ios_error">iPhone услуби: хато (икки паст тук)</string>
+    <string name="snd_name_ios_glass">iPhone услуби: шиша жаранглаши</string>
+    <string name="snd_name_ios_marimba">iPhone услуби: маримба</string>
+    <string name="snd_name_ios_chime_up">iPhone услуби: кўтарилувчи қўнғироқчалар</string>
+    <string name="snd_name_drop_big">Катта томчи</string>
+    <string name="snd_name_drop_cave">Ғорда томчи (акс садоли)</string>
+    <string name="snd_name_drop_stone">Сувга тош тушиши</string>
+    <string name="snd_name_water_fountain">Фаввора</string>
+    <string name="snd_name_rain_roof">Томга ёмғир</string>
+    <string name="snd_name_rain_puddle">Кўлмакка томчи</string>
+    <string name="snd_name_bird_sparrow">Чумчуқ чирқиллаши</string>
+    <string name="snd_name_bird_bulbul">Булбул сайраши</string>
+    <string name="snd_name_bird_hoopoe">Ҳудҳуд садоси</string>
+    <string name="snd_name_fire_crackle">Гулхан чирсиллаши</string>
+    <string name="snd_name_step_grass">Ўтлоқда қадам</string>
+    <string name="snd_name_step_gravel">Шағалда қадам</string>
+    <string name="snd_name_step_wood">Ёғоч полда қадам</string>
+    <string name="snd_name_step_snow">Қорда қадам</string>
+    <string name="snd_name_kalimba">Калимба</string>
+
+    <!-- TTS двигатели ойнасидаги бўлим -->
+    <string name="tts_act_sounds_title">Товуш сигналлари (табиат товушлари)</string>
+    <string name="tts_act_sounds_open">Товуш сигналлари созламаларини очиш</string>
+    <string name="tts_act_sounds_off">Товуш сигналлари ўчиқ. Уларни ёқсангиз, Ўзбегим афзал кўрилган механизм бўлиб, экранни TalkBack ўқиётган пайтда ҳам чалинади.</string>
+    <string name="tts_act_sounds_standby_off">Товуш сигналлари ҳозир фақат Ўзбегимнинг ўзи экранни ўқиётганда чалинади. TalkBack ёқиқ пайтда ҳам чалиниши учун товуш сигналлари созламаларида тегишли тугмани ёқинг.</string>
+    <string name="tts_act_sounds_no_service">TalkBack ёқиқ пайтда сигнал чалиниши учун Ўзбегим махсус имкониятлар хизмати ҳам ёқилган бўлиши керак.</string>
+    <string name="tts_act_sounds_ready">Тайёр: TalkBack ёқиқ пайтда ҳам фокус, босиш, ойна ва суриш сигналлари чалинади. Мавзу: %1$s.</string>
+
+    <!-- Журнал -->
+    <string name="log_earcon_load">Товуш юкланмади: %1$s</string>
+</resources>

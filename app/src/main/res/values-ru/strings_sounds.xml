@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Звуковые сигналы (v32, v33): темы, звуки природы, свой звук для каждого события, работа вместе с другим экранным диктором -->
+
+    <!-- Пункт входа на главном экране настроек -->
+    <string name="pref_open_sounds">Настройки звуковых сигналов (тема, звуки природы, громкость)</string>
+    <string name="pref_open_sounds_summary">Капли, вода, дождь, птицы, шаги, звуки в стиле iPhone и другие расслабляющие звуки; свой звук для каждого события; работает и вместе с другим экранным диктором</string>
+
+    <!-- Экран звуковых сигналов -->
+    <string name="snd_title">Звуковые сигналы</string>
+    <string name="snd_cat_main">Звуковые сигналы</string>
+    <string name="snd_earcons_summary">Короткий звук без речи при смене фокуса, нажатии, достижении границы, смене окна, прокрутке и ошибке. По умолчанию выключено.</string>
+    <string name="snd_theme">Тема звуков</string>
+    <string name="snd_volume">Громкость сигналов (в процентах)</string>
+    <string name="snd_volume_summary">Работает вместе с громкостью специальных возможностей телефона</string>
+    <string name="snd_volume_exact">Ввести громкость точным числом</string>
+    <string name="snd_volume_exact_summary">Сейчас: %1$d процентов</string>
+    <string name="snd_demo">Прослушать все сигналы подряд</string>
+    <string name="snd_demo_summary">Звуки фокуса, нажатия, границы, окна, прокрутки и ошибки звучат один за другим</string>
+
+    <!-- Основной движок речи: сигналы и при включённом TalkBack -->
+    <string name="snd_cat_standby">Основной движок речи: вместе с другим экранным диктором</string>
+    <string name="snd_standby">Сигналы при включённом TalkBack</string>
+    <string name="snd_standby_summary">Когда O‘zbegim выбран основным движком речи, а экран читает TalkBack или другой экранный диктор, сигналы фокуса, нажатия, окна и прокрутки всё равно звучат. Для этого служба специальных возможностей O‘zbegim должна оставаться включённой.</string>
+    <string name="snd_standby_status_title">Состояние</string>
+    <string name="snd_status_master_off">Звуковые сигналы выключены: включите переключатель «Звуковые сигналы» выше.</string>
+    <string name="snd_status_off">Переключатель выключен: пока работает TalkBack или другой экранный диктор, сигналы не звучат.</string>
+    <string name="snd_status_no_service">Служба специальных возможностей O‘zbegim не включена. Включите O‘zbegim в разделе «Специальные возможности» настроек телефона — тогда сигналы будут звучать и при включённом TalkBack.</string>
+    <string name="snd_status_ready">Готово: при включённом другом экранном дикторе звучат сигналы фокуса, нажатия, окна и прокрутки. Сигналы границы и ошибки звучат только тогда, когда читает сам O‘zbegim. Если сигналы слышны дважды, выключите «Sound feedback» в настройках TalkBack.</string>
+
+    <!-- Звук для каждого события -->
+    <string name="snd_cat_events">Звук для каждого события</string>
+    <string name="snd_choice_theme_entry">Звук из темы</string>
+    <string name="snd_choice_off">Выключено</string>
+    <string name="snd_choice_theme">Звук из темы: %1$s</string>
+    <string name="snd_event_focus">Смена фокуса (новый элемент)</string>
+    <string name="snd_event_click">Нажатие на элемент</string>
+    <string name="snd_event_edge">Достигнут край списка</string>
+    <string name="snd_event_window">Смена окна или экрана</string>
+    <string name="snd_event_scroll">Прокрутка списка</string>
+    <string name="snd_event_error">Действие не выполнено (ошибка)</string>
+
+    <!-- Группы в списке прослушивания -->
+    <string name="snd_group_tone">Простые тоны</string>
+    <string name="snd_group_ios">Звуки в стиле iPhone</string>
+    <string name="snd_group_water">Звуки воды</string>
+    <string name="snd_group_rain">Звуки дождя</string>
+    <string name="snd_group_nature">Птицы, ветерок и лес</string>
+    <string name="snd_group_step">Шаги и звуки движения</string>
+    <string name="snd_group_zen">Звуки покоя и отдыха</string>
+
+    <!-- Темы -->
+    <string name="snd_theme_classic">Классическая (прежние тики)</string>
+    <string name="snd_theme_water">Вода и капли</string>
+    <string name="snd_theme_rain">Дождь</string>
+    <string name="snd_theme_forest">Лес и птицы</string>
+    <string name="snd_theme_zen">Покой (бамбук, чаша, колокольчик)</string>
+    <string name="snd_theme_mix">Смешанная природа</string>
+    <string name="snd_theme_ios">Стиль iPhone (мягкое дерево и стекло)</string>
+    <string name="snd_theme_steps">Шаги и дерево</string>
+
+    <!-- Звуки -->
+    <string name="snd_name_tone_tik">Тик (короткий высокий тон)</string>
+    <string name="snd_name_tone_tuk">Так-тук (два коротких тона)</string>
+    <string name="snd_name_tone_edge">Граница (понижающийся тон)</string>
+    <string name="snd_name_tone_window">Окно (повышающийся тон)</string>
+    <string name="snd_name_tone_scroll">Прокрутка (три коротких тона)</string>
+    <string name="snd_name_tone_error">Ошибка (низкий тон)</string>
+    <string name="snd_name_drop_tiny">Маленькая капля</string>
+    <string name="snd_name_drop_water">Капля воды</string>
+    <string name="snd_name_drop_deep">Глубокая капля (с эхом)</string>
+    <string name="snd_name_drop_pair">Две капли</string>
+    <string name="snd_name_water_splash">Удар по поверхности воды (всплеск)</string>
+    <string name="snd_name_water_ripple">Рябь на воде</string>
+    <string name="snd_name_water_brook">Журчание ручья</string>
+    <string name="snd_name_water_wave">Морская волна</string>
+    <string name="snd_name_rain_tap">Капля дождя</string>
+    <string name="snd_name_rain_leaves">Дождь по листьям</string>
+    <string name="snd_name_rain_shower">Идёт дождь</string>
+    <string name="snd_name_bird_tweet">Щебет птицы</string>
+    <string name="snd_name_bird_trill">Пение птицы</string>
+    <string name="snd_name_bird_dove">Воркование голубя</string>
+    <string name="snd_name_cricket">Сверчок</string>
+    <string name="snd_name_leaf_rustle">Шелест листьев</string>
+    <string name="snd_name_wind_breeze">Лёгкий ветерок</string>
+    <string name="snd_name_bamboo_tap">Стук бамбука</string>
+    <string name="snd_name_wood_block">Деревянный стук</string>
+    <string name="snd_name_pebble">Маленький камешек</string>
+    <string name="snd_name_chime_wind">Ветряной колокольчик (с эхом)</string>
+    <string name="snd_name_bowl_soft">Поющая чаша</string>
+    <string name="snd_name_ios_tick">Стиль iPhone: мягкий тик</string>
+    <string name="snd_name_ios_tock">Стиль iPhone: деревянный ток</string>
+    <string name="snd_name_ios_pop">Стиль iPhone: поп (нажатие)</string>
+    <string name="snd_name_ios_thud">Стиль iPhone: низкий удар (граница)</string>
+    <string name="snd_name_ios_swoosh">Стиль iPhone: лёгкий свист и звук стекла (окно)</string>
+    <string name="snd_name_ios_scroll">Стиль iPhone: трещотка прокрутки</string>
+    <string name="snd_name_ios_error">Стиль iPhone: ошибка (два низких стука)</string>
+    <string name="snd_name_ios_glass">Стиль iPhone: звон стекла</string>
+    <string name="snd_name_ios_marimba">Стиль iPhone: маримба</string>
+    <string name="snd_name_ios_chime_up">Стиль iPhone: восходящие колокольчики</string>
+    <string name="snd_name_drop_big">Большая капля</string>
+    <string name="snd_name_drop_cave">Капля в пещере (с эхом)</string>
+    <string name="snd_name_drop_stone">Камень упал в воду</string>
+    <string name="snd_name_water_fountain">Фонтан</string>
+    <string name="snd_name_rain_roof">Дождь по крыше</string>
+    <string name="snd_name_rain_puddle">Капля в лужу</string>
+    <string name="snd_name_bird_sparrow">Чириканье воробья</string>
+    <string name="snd_name_bird_bulbul">Пение соловья</string>
+    <string name="snd_name_bird_hoopoe">Голос удода</string>
+    <string name="snd_name_fire_crackle">Треск костра</string>
+    <string name="snd_name_step_grass">Шаг по траве</string>
+    <string name="snd_name_step_gravel">Шаг по гравию</string>
+    <string name="snd_name_step_wood">Шаг по деревянному полу</string>
+    <string name="snd_name_step_snow">Шаг по снегу</string>
+    <string name="snd_name_kalimba">Калимба</string>
+
+    <!-- Раздел в окне движка речи -->
+    <string name="tts_act_sounds_title">Звуковые сигналы (звуки природы)</string>
+    <string name="tts_act_sounds_open">Открыть настройки звуковых сигналов</string>
+    <string name="tts_act_sounds_off">Звуковые сигналы выключены. Если их включить, они будут звучать и когда O‘zbegim — основной движок речи, а экран читает TalkBack.</string>
+    <string name="tts_act_sounds_standby_off">Сейчас звуковые сигналы звучат только тогда, когда экран читает сам O‘zbegim. Чтобы они звучали и при включённом TalkBack, включите соответствующий переключатель в настройках звуковых сигналов.</string>
+    <string name="tts_act_sounds_no_service">Чтобы сигналы звучали при включённом TalkBack, должна быть включена и служба специальных возможностей O‘zbegim.</string>
+    <string name="tts_act_sounds_ready">Готово: при включённом TalkBack тоже звучат сигналы фокуса, нажатия, окна и прокрутки. Тема: %1$s.</string>
+
+    <!-- Журнал -->
+    <string name="log_earcon_load">Звук не загрузился: %1$s</string>
+</resources>

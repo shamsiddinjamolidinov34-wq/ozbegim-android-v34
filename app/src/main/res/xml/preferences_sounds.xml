@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/snd_cat_main">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="earcons"
+            app:summary="@string/snd_earcons_summary"
+            app:title="@string/pref_earcons" />
+        <!-- Ro'yxat (entries) kodda mavzular katalogidan quriladi: SoundsFragment.bindMain -->
+        <ListPreference
+            app:defaultValue="classic"
+            app:key="earcon_theme"
+            app:title="@string/snd_theme"
+            app:useSimpleSummaryProvider="true" />
+        <SeekBarPreference
+            android:max="100"
+            app:defaultValue="60"
+            app:key="earcon_volume"
+            app:min="10"
+            app:seekBarIncrement="5"
+            app:showSeekBarValue="true"
+            app:summary="@string/snd_volume_summary"
+            app:title="@string/snd_volume" />
+        <Preference
+            app:key="earcon_volume_exact"
+            app:persistent="false"
+            app:title="@string/snd_volume_exact" />
+        <Preference
+            app:key="earcon_demo"
+            app:persistent="false"
+            app:summary="@string/snd_demo_summary"
+            app:title="@string/snd_demo" />
+    </PreferenceCategory>
+
+    <!-- O'zbegim afzal ko'rilgan mexanizm bo'lib, ekran o'quvchi TalkBack bo'lganda ham signal chalinishi -->
+    <PreferenceCategory app:title="@string/snd_cat_standby">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="earcons_standby"
+            app:summary="@string/snd_standby_summary"
+            app:title="@string/snd_standby" />
+        <Preference
+            app:key="earcons_standby_status"
+            app:persistent="false"
+            app:selectable="false"
+            app:title="@string/snd_standby_status_title" />
+    </PreferenceCategory>
+
+    <!-- Har bir hodisaga alohida tovush: ro'yxatlar kodda quriladi (SoundsFragment.buildEvents) -->
+    <PreferenceCategory
+        app:key="snd_events"
+        app:title="@string/snd_cat_events" />
+</PreferenceScreen>

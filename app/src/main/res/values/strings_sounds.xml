@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tovush signallari (v32, v33): mavzular, tabiat tovushlari, har bir hodisaga alohida tovush, boshqa ekran o'quvchi bilan -->
+
+    <!-- Asosiy Sozlamalar ekranidagi kirish punkti -->
+    <string name="pref_open_sounds">Tovush signallari sozlamalari (mavzu, tabiat tovushlari, balandlik)</string>
+    <string name="pref_open_sounds_summary">Tomchi, suv, yomg\'ir, qush, qadam va iPhone uslubidagi tovushlar; har bir hodisaga alohida tovush; boshqa ekran o\'quvchi bilan ham</string>
+
+    <!-- Tovush signallari ekrani -->
+    <string name="snd_title">Tovush signallari</string>
+    <string name="snd_cat_main">Tovush signallari</string>
+    <string name="snd_earcons_summary">Fokus, bosish, chegara, oyna, surish va xato hodisalarida nutqsiz qisqa tovush chalinadi. Standartda o\'chiq.</string>
+    <string name="snd_theme">Tovushlar mavzusi</string>
+    <string name="snd_volume">Signallar balandligi (foiz)</string>
+    <string name="snd_volume_summary">Telefonning \"maxsus imkoniyatlar\" ovoz balandligi bilan birga ishlaydi</string>
+    <string name="snd_volume_exact">Balandlikni aniq son bilan kiritish</string>
+    <string name="snd_volume_exact_summary">Hozir: %1$d foiz</string>
+    <string name="snd_demo">Hamma signallarni ketma-ket eshitish</string>
+    <string name="snd_demo_summary">Fokus, bosish, chegara, oyna, surish va xato tovushlari birin-ketin chalinadi</string>
+
+    <!-- Afzal ko'rilgan mexanizm: TalkBack yoqiq paytda ham signal -->
+    <string name="snd_cat_standby">Afzal ko\'rilgan mexanizm: boshqa ekran o\'quvchi bilan</string>
+    <string name="snd_standby">TalkBack yoqiq bo\'lganda ham signal chalish</string>
+    <string name="snd_standby_summary">O‘zbegim afzal ko\'rilgan nutq mexanizmi bo\'lib, ekranni TalkBack yoki boshqa ekran o\'quvchi o\'qiyotgan paytda ham fokus, bosish, oyna va surish signallari chalinadi. Buning uchun O‘zbegim maxsus imkoniyatlar xizmati yoqiq turishi kerak.</string>
+    <string name="snd_standby_status_title">Holat</string>
+    <string name="snd_status_master_off">Tovush signallari o\'chiq: yuqoridagi \"Tovush signallari\" tugmasini yoqing.</string>
+    <string name="snd_status_off">Bu tugma o\'chiq: TalkBack yoki boshqa ekran o\'quvchi yoqiq paytda signal chalinmaydi.</string>
+    <string name="snd_status_no_service">O‘zbegim maxsus imkoniyatlar xizmati yoqilmagan. Telefon sozlamalarining \"Maxsus imkoniyatlar\" bo\'limida O‘zbegimni yoqing, shunda TalkBack yoqiq paytda ham signal chalinadi.</string>
+    <string name="snd_status_ready">Tayyor: boshqa ekran o\'quvchi yoqiq paytda ham fokus, bosish, oyna va surish signallari chalinadi. Chegara va xato signallari faqat O‘zbegimning o\'zi o\'qiyotganda chalinadi. Signallar ikki marta eshitilsa, TalkBack sozlamalarida \"Sound feedback\" bandini o\'chiring.</string>
+
+    <!-- Har bir hodisa uchun tovush -->
+    <string name="snd_cat_events">Har bir hodisa uchun tovush</string>
+    <string name="snd_choice_theme_entry">Mavzudagi tovush</string>
+    <string name="snd_choice_off">O\'chiq</string>
+    <string name="snd_choice_theme">Mavzudagi tovush: %1$s</string>
+    <string name="snd_event_focus">Fokus o\'zgarganda (yangi element)</string>
+    <string name="snd_event_click">Element bosilganda</string>
+    <string name="snd_event_edge">Ro\'yxat chegarasiga yetganda</string>
+    <string name="snd_event_window">Oyna yoki ekran almashganda</string>
+    <string name="snd_event_scroll">Ro\'yxat surilganda</string>
+    <string name="snd_event_error">Amal bajarilmaganda (xato)</string>
+
+    <!-- Tinglab ko'rish ro'yxatidagi guruhlar -->
+    <string name="snd_group_tone">Oddiy ohanglar</string>
+    <string name="snd_group_ios">iPhone uslubidagi tovushlar</string>
+    <string name="snd_group_water">Suv tovushlari</string>
+    <string name="snd_group_rain">Yomg\'ir tovushlari</string>
+    <string name="snd_group_nature">Qushlar, shabada va o\'rmon</string>
+    <string name="snd_group_step">Qadam va harakat tovushlari</string>
+    <string name="snd_group_zen">Sokinlik va hordiq tovushlari</string>
+
+    <!-- Mavzular -->
+    <string name="snd_theme_classic">Klassik (avvalgi tik va tuk ohanglari)</string>
+    <string name="snd_theme_water">Suv va tomchilar</string>
+    <string name="snd_theme_rain">Yomg\'ir</string>
+    <string name="snd_theme_forest">O\'rmon va qushlar</string>
+    <string name="snd_theme_zen">Sokinlik (bambuk, kosa, qo\'ng\'iroq)</string>
+    <string name="snd_theme_mix">Aralash tabiat</string>
+    <string name="snd_theme_ios">iPhone uslubi (yumshoq yog\'och va shisha)</string>
+    <string name="snd_theme_steps">Qadamlar va yog\'och</string>
+
+    <!-- Tovushlar -->
+    <string name="snd_name_tone_tik">Tik (qisqa yuqori ohang)</string>
+    <string name="snd_name_tone_tuk">Tak-tuk (ikki qisqa ohang)</string>
+    <string name="snd_name_tone_edge">Chegara (pasayuvchi ohang)</string>
+    <string name="snd_name_tone_window">Oyna (ko\'tariluvchi ohang)</string>
+    <string name="snd_name_tone_scroll">Surish (uch qisqa ohang)</string>
+    <string name="snd_name_tone_error">Xato (past ohang)</string>
+    <string name="snd_name_drop_tiny">Mayda tomchi</string>
+    <string name="snd_name_drop_water">Suv tomchisi</string>
+    <string name="snd_name_drop_deep">Chuqur tomchi (aks sadoli)</string>
+    <string name="snd_name_drop_pair">Ikki tomchi</string>
+    <string name="snd_name_water_splash">Suv sathiga urilish (chayqalish)</string>
+    <string name="snd_name_water_ripple">Suv to\'lqinchasi</string>
+    <string name="snd_name_water_brook">Soy shildirashi</string>
+    <string name="snd_name_water_wave">Dengiz to\'lqini</string>
+    <string name="snd_name_rain_tap">Yomg\'ir tomchisi</string>
+    <string name="snd_name_rain_leaves">Yomg\'ir barglarda</string>
+    <string name="snd_name_rain_shower">Yog\'ayotgan yomg\'ir</string>
+    <string name="snd_name_bird_tweet">Qush chiyillashi</string>
+    <string name="snd_name_bird_trill">Qush sayrashi</string>
+    <string name="snd_name_bird_dove">Kaptar g\'u-g\'usi</string>
+    <string name="snd_name_cricket">Chirildoq</string>
+    <string name="snd_name_leaf_rustle">Barglar shitirlashi</string>
+    <string name="snd_name_wind_breeze">Yengil shabada</string>
+    <string name="snd_name_bamboo_tap">Bambuk taqillashi</string>
+    <string name="snd_name_wood_block">Yog\'och taqillashi</string>
+    <string name="snd_name_pebble">Mayda tosh</string>
+    <string name="snd_name_chime_wind">Shamol qo\'ng\'irog\'i (aks sadoli)</string>
+    <string name="snd_name_bowl_soft">Kuylovchi kosa</string>
+    <string name="snd_name_ios_tick">iPhone uslubi: tik (yumshoq)</string>
+    <string name="snd_name_ios_tock">iPhone uslubi: tok (yog\'och)</string>
+    <string name="snd_name_ios_pop">iPhone uslubi: pop (bosish)</string>
+    <string name="snd_name_ios_thud">iPhone uslubi: past zarba (chegara)</string>
+    <string name="snd_name_ios_swoosh">iPhone uslubi: shamolcha va shisha ohangi (oyna)</string>
+    <string name="snd_name_ios_scroll">iPhone uslubi: surish tiqirlashi</string>
+    <string name="snd_name_ios_error">iPhone uslubi: xato (ikki past tuk)</string>
+    <string name="snd_name_ios_glass">iPhone uslubi: shisha jaranglashi</string>
+    <string name="snd_name_ios_marimba">iPhone uslubi: marimba</string>
+    <string name="snd_name_ios_chime_up">iPhone uslubi: ko\'tariluvchi qo\'ng\'iroqchalar</string>
+    <string name="snd_name_drop_big">Katta tomchi</string>
+    <string name="snd_name_drop_cave">G\'orda tomchi (aks sadoli)</string>
+    <string name="snd_name_drop_stone">Suvga tosh tushishi</string>
+    <string name="snd_name_water_fountain">Favvora</string>
+    <string name="snd_name_rain_roof">Tomga yomg\'ir</string>
+    <string name="snd_name_rain_puddle">Ko\'lmakka tomchi</string>
+    <string name="snd_name_bird_sparrow">Chumchuq chirqillashi</string>
+    <string name="snd_name_bird_bulbul">Bulbul sayrashi</string>
+    <string name="snd_name_bird_hoopoe">Hudhud sadosi</string>
+    <string name="snd_name_fire_crackle">Gulxan chirsillashi</string>
+    <string name="snd_name_step_grass">O\'tloqda qadam</string>
+    <string name="snd_name_step_gravel">Shag\'alda qadam</string>
+    <string name="snd_name_step_wood">Yog\'och polda qadam</string>
+    <string name="snd_name_step_snow">Qorda qadam</string>
+    <string name="snd_name_kalimba">Kalimba</string>
+
+    <!-- TTS dvigateli oynasidagi bo'lim -->
+    <string name="tts_act_sounds_title">Tovush signallari (tabiat tovushlari)</string>
+    <string name="tts_act_sounds_open">Tovush signallari sozlamalarini ochish</string>
+    <string name="tts_act_sounds_off">Tovush signallari o\'chiq. Ularni yoqsangiz, O‘zbegim afzal ko\'rilgan mexanizm bo\'lib, ekranni TalkBack o\'qiyotgan paytda ham chalinadi.</string>
+    <string name="tts_act_sounds_standby_off">Tovush signallari hozir faqat O‘zbegimning o\'zi ekranni o\'qiyotganda chalinadi. TalkBack yoqiq paytda ham chalinishi uchun tovush signallari sozlamalarida tegishli tugmani yoqing.</string>
+    <string name="tts_act_sounds_no_service">TalkBack yoqiq paytda signal chalinishi uchun O‘zbegim maxsus imkoniyatlar xizmati ham yoqilgan bo\'lishi kerak.</string>
+    <string name="tts_act_sounds_ready">Tayyor: TalkBack yoqiq paytda ham fokus, bosish, oyna va surish signallari chalinadi. Mavzu: %1$s.</string>
+
+    <!-- Jurnal -->
+    <string name="log_earcon_load">Tovush yuklanmadi: %1$s</string>
+</resources>

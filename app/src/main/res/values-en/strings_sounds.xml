@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sound cues (v32, v33): themes, nature sounds, a separate sound for each event, working alongside another screen reader -->
+
+    <!-- Entry point on the main Settings screen -->
+    <string name="pref_open_sounds">Sound cue settings (theme, nature sounds, volume)</string>
+    <string name="pref_open_sounds_summary">Water drops, rain, birds, footsteps, iPhone-style sounds and other relaxing sounds; a separate sound for each event; also works alongside another screen reader</string>
+
+    <!-- Sound cues screen -->
+    <string name="snd_title">Sound cues</string>
+    <string name="snd_cat_main">Sound cues</string>
+    <string name="snd_earcons_summary">A short sound without speech when focus changes, on click, at the edge of a list, when the window changes, on scroll and on error. Off by default.</string>
+    <string name="snd_theme">Sound theme</string>
+    <string name="snd_volume">Cue volume (percent)</string>
+    <string name="snd_volume_summary">Works together with the phone\'s accessibility volume</string>
+    <string name="snd_volume_exact">Enter the volume as an exact number</string>
+    <string name="snd_volume_exact_summary">Now: %1$d percent</string>
+    <string name="snd_demo">Play all cues one after another</string>
+    <string name="snd_demo_summary">The focus, click, edge, window, scroll and error sounds play one by one</string>
+
+    <!-- Preferred engine: cues while TalkBack is on -->
+    <string name="snd_cat_standby">Preferred engine: alongside another screen reader</string>
+    <string name="snd_standby">Play cues while TalkBack is on</string>
+    <string name="snd_standby_summary">When O‘zbegim is the preferred speech engine and TalkBack or another screen reader reads the screen, the focus, click, window and scroll cues still play. For this, the O‘zbegim accessibility service must stay turned on.</string>
+    <string name="snd_standby_status_title">Status</string>
+    <string name="snd_status_master_off">Sound cues are off: turn on the Sound cues switch above.</string>
+    <string name="snd_status_off">This switch is off: no cues play while TalkBack or another screen reader is on.</string>
+    <string name="snd_status_no_service">The O‘zbegim accessibility service is not turned on. Turn on O‘zbegim in your phone\'s Accessibility settings, then cues will play while TalkBack is on.</string>
+    <string name="snd_status_ready">Ready: while another screen reader is on, the focus, click, window and scroll cues play. Edge and error cues play only when O‘zbegim itself is reading. If you hear every cue twice, turn off Sound feedback in the TalkBack settings.</string>
+
+    <!-- A sound for each event -->
+    <string name="snd_cat_events">Sound for each event</string>
+    <string name="snd_choice_theme_entry">Sound from the theme</string>
+    <string name="snd_choice_off">Off</string>
+    <string name="snd_choice_theme">Sound from the theme: %1$s</string>
+    <string name="snd_event_focus">Focus changes (new item)</string>
+    <string name="snd_event_click">An item is clicked</string>
+    <string name="snd_event_edge">The end of a list is reached</string>
+    <string name="snd_event_window">The window or screen changes</string>
+    <string name="snd_event_scroll">A list is scrolled</string>
+    <string name="snd_event_error">An action fails (error)</string>
+
+    <!-- Groups in the listening list -->
+    <string name="snd_group_tone">Simple tones</string>
+    <string name="snd_group_ios">iPhone-style sounds</string>
+    <string name="snd_group_water">Water sounds</string>
+    <string name="snd_group_rain">Rain sounds</string>
+    <string name="snd_group_nature">Birds, breeze and forest</string>
+    <string name="snd_group_step">Footsteps and movement sounds</string>
+    <string name="snd_group_zen">Calm and relaxing sounds</string>
+
+    <!-- Themes -->
+    <string name="snd_theme_classic">Classic (the earlier tick tones)</string>
+    <string name="snd_theme_water">Water and drops</string>
+    <string name="snd_theme_rain">Rain</string>
+    <string name="snd_theme_forest">Forest and birds</string>
+    <string name="snd_theme_zen">Calm (bamboo, bowl, chime)</string>
+    <string name="snd_theme_mix">Mixed nature</string>
+    <string name="snd_theme_ios">iPhone style (soft wood and glass)</string>
+    <string name="snd_theme_steps">Footsteps and wood</string>
+
+    <!-- Sounds -->
+    <string name="snd_name_tone_tik">Tick (short high tone)</string>
+    <string name="snd_name_tone_tuk">Click (two short tones)</string>
+    <string name="snd_name_tone_edge">Edge (falling tone)</string>
+    <string name="snd_name_tone_window">Window (rising tone)</string>
+    <string name="snd_name_tone_scroll">Scroll (three short blips)</string>
+    <string name="snd_name_tone_error">Error (low tone)</string>
+    <string name="snd_name_drop_tiny">Tiny drop</string>
+    <string name="snd_name_drop_water">Water drop</string>
+    <string name="snd_name_drop_deep">Deep drop (with echo)</string>
+    <string name="snd_name_drop_pair">Two drops</string>
+    <string name="snd_name_water_splash">Strike on the water surface (splash)</string>
+    <string name="snd_name_water_ripple">Water ripple</string>
+    <string name="snd_name_water_brook">Babbling brook</string>
+    <string name="snd_name_water_wave">Sea wave</string>
+    <string name="snd_name_rain_tap">Raindrop</string>
+    <string name="snd_name_rain_leaves">Rain on leaves</string>
+    <string name="snd_name_rain_shower">Falling rain</string>
+    <string name="snd_name_bird_tweet">Bird chirp</string>
+    <string name="snd_name_bird_trill">Bird song</string>
+    <string name="snd_name_bird_dove">Dove cooing</string>
+    <string name="snd_name_cricket">Cricket</string>
+    <string name="snd_name_leaf_rustle">Rustling leaves</string>
+    <string name="snd_name_wind_breeze">Gentle breeze</string>
+    <string name="snd_name_bamboo_tap">Bamboo tap</string>
+    <string name="snd_name_wood_block">Wood block</string>
+    <string name="snd_name_pebble">Small pebble</string>
+    <string name="snd_name_chime_wind">Wind chime (with echo)</string>
+    <string name="snd_name_bowl_soft">Singing bowl</string>
+    <string name="snd_name_ios_tick">iPhone style: soft tick</string>
+    <string name="snd_name_ios_tock">iPhone style: wooden tock</string>
+    <string name="snd_name_ios_pop">iPhone style: pop (press)</string>
+    <string name="snd_name_ios_thud">iPhone style: low thud (edge)</string>
+    <string name="snd_name_ios_swoosh">iPhone style: airy swoosh with a glass tone (window)</string>
+    <string name="snd_name_ios_scroll">iPhone style: scroll ratchet</string>
+    <string name="snd_name_ios_error">iPhone style: error (two low knocks)</string>
+    <string name="snd_name_ios_glass">iPhone style: glass ring</string>
+    <string name="snd_name_ios_marimba">iPhone style: marimba</string>
+    <string name="snd_name_ios_chime_up">iPhone style: rising chimes</string>
+    <string name="snd_name_drop_big">Big drop</string>
+    <string name="snd_name_drop_cave">Drop in a cave (with echo)</string>
+    <string name="snd_name_drop_stone">Stone dropped into water</string>
+    <string name="snd_name_water_fountain">Fountain</string>
+    <string name="snd_name_rain_roof">Rain on a roof</string>
+    <string name="snd_name_rain_puddle">Drop into a puddle</string>
+    <string name="snd_name_bird_sparrow">Sparrow chirping</string>
+    <string name="snd_name_bird_bulbul">Nightingale song</string>
+    <string name="snd_name_bird_hoopoe">Hoopoe call</string>
+    <string name="snd_name_fire_crackle">Campfire crackle</string>
+    <string name="snd_name_step_grass">Step on grass</string>
+    <string name="snd_name_step_gravel">Step on gravel</string>
+    <string name="snd_name_step_wood">Step on a wooden floor</string>
+    <string name="snd_name_step_snow">Step in snow</string>
+    <string name="snd_name_kalimba">Kalimba</string>
+
+    <!-- Section in the speech engine screen -->
+    <string name="tts_act_sounds_title">Sound cues (nature sounds)</string>
+    <string name="tts_act_sounds_open">Open sound cue settings</string>
+    <string name="tts_act_sounds_off">Sound cues are off. If you turn them on, they also play when O‘zbegim is the preferred engine and TalkBack reads the screen.</string>
+    <string name="tts_act_sounds_standby_off">Sound cues currently play only when O‘zbegim itself reads the screen. To hear them while TalkBack is on, turn on the matching switch in the sound cue settings.</string>
+    <string name="tts_act_sounds_no_service">For cues to play while TalkBack is on, the O‘zbegim accessibility service must also be turned on.</string>
+    <string name="tts_act_sounds_ready">Ready: the focus, click, window and scroll cues also play while TalkBack is on. Theme: %1$s.</string>
+
+    <!-- Log -->
+    <string name="log_earcon_load">Sound failed to load: %1$s</string>
+</resources>
